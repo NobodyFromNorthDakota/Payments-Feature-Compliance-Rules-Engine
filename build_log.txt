@@ -1,0 +1,28 @@
+▲ Next.js 16.1.6 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 3.9s
+  Running TypeScript ...
+  Collecting page data using 11 workers ...
+Warning: Cannot load "@napi-rs/canvas" package: "Error: Cannot find module '@napi-rs/canvas'
+Require stack:
+- c:\ROOT\node_modules\pdf-parse\dist\pdf-parse\cjs\index.cjs".
+Warning: Cannot polyfill `DOMMatrix`, rendering may be broken.
+Warning: Cannot polyfill `ImageData`, rendering may be broken.
+Warning: Cannot polyfill `Path2D`, rendering may be broken.
+ReferenceError: DOMMatrix is not defined
+    at instantiateModule (c:\Users\Ryuji\.gemini\antigravity\scratch\payments-compliance-agents\.next\server\chunks\[turbopack]_runtime.js:740:9)
+    at getOrInstantiateModuleFromParent (c:\Users\Ryuji\.gemini\antigravity\scratch\payments-compliance-agents\.next\server\chunks\[turbopack]_runtime.js:763:12)
+    at Context.commonJsRequire [as r] (c:\Users\Ryuji\.gemini\antigravity\scratch\payments-compliance-agents\.next\server\chunks\[turbopack]_runtime.js:249:12)
+    at instantiateModule (c:\Users\Ryuji\.gemini\antigravity\scratch\payments-compliance-agents\.next\server\chunks\[turbopack]_runtime.js:740:9)
+    at instantiateRuntimeModule (c:\Users\Ryuji\.gemini\antigravity\scratch\payments-compliance-agents\.next\server\chunks\[turbopack]_runtime.js:768:12)
+    at getOrInstantiateRuntimeModule (c:\Users\Ryuji\.gemini\antigravity\scratch\payments-compliance-agents\.next\server\chunks\[turbopack]_runtime.js:781:12)
+    at Object.m (c:\Users\Ryuji\.gemini\antigravity\scratch\payments-compliance-agents\.next\server\chunks\[turbopack]_runtime.js:790:18)
+    at Object.<anonymous> (c:\Users\Ryuji\.gemini\antigravity\scratch\payments-compliance-agents\.next\server\app\api\parse-doc\route.js:6:3)
+
+> Build error occurred
+Error: Failed to collect page data for /api/parse-doc
+    at ignore-listed frames {
+  type: 'Error'
+}
